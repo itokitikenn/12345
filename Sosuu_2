@@ -1,7 +1,7 @@
 import math
 Sosuu = [2]
 print(2)
-kazu = 1
+kazu = 2
 while kazu <100000:
   kazu2 = 0
   kazu = kazu + 1
@@ -9,7 +9,7 @@ while kazu <100000:
   while kazu2 < len(Sosuu) and furagu < 1:
     if math.sqrt(kazu) < Sosuu[kazu2]:
       break
-    if kazu % Sosuu[kazu] == 0:
+    if kazu % Sosuu[kazu2] == 0:
       furagu = 1
     kazu2 = kazu2 + 1
   if furagu == 0:
